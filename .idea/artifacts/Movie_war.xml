@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Movie:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Movie</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Movie.war">
+      <element id="artifact" artifact-name="Movie:war exploded" />
+    </root>
+  </artifact>
+</component>
